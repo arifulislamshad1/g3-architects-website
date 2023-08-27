@@ -1,0 +1,154 @@
+/*common styles*/
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.content-primary{
+color:  #424242;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 500;
+}
+
+.btn-primary{
+    width: 11.5rem;
+height: 4rem;
+border-radius: .5rem;
+background: #FF900E;
+border: none;
+color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+cursor: pointer;
+
+}
+/*nav Related */
+
+.nav-tittle{
+text-align: center;
+font-size: 2.70rem;
+font-weight: 700;
+}
+
+.nav-menu{
+
+color:  #424242;
+font-size: 1.2rem;
+font-weight: 500;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color:  #424242;
+text-align: center;
+font-size: 1.13rem;
+font-weight: 500;
+
+padding: 1.5rem;
+
+   
+}
+nav ul li{
+    list-style: none;
+    
+}
+.nav-menu{
+    
+   
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+.nav-container{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+    
+}
+
+header{
+
+    background: rgba(255, 144, 14, 0.10);
+    padding-left: 13.50rem;
+    padding-right: 13.50rem;
+    
+}
+
+/*banner styles*/
+
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+   margin: 0px auto;
+    
+   
+
+}
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: 700;
+    color:  #131313;
+}
+.banner-discription{
+    font-size: 1rem;
+    color: #727272;
+text-align: center;
+
+
+}
+.banner-img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*mobile device*/
+/*small */
+@media screen and (max-width:576px){
+    header{
+        padding: 10px;
+    }
+
+    nav{
+    flex-direction: column;
+
+}
+nav li a{
+   
+font-size: 1.13rem;
+
+padding: .5rem;
+
+   
+}
+nav ul{
+    padding: .4rem;
+}
+    
+}
+
+
+/*mediam divices*/
+@media screen(min-width:576px) (max-width:960px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
