@@ -53,10 +53,7 @@ nav ul li{
     list-style: none;
     
 }
-.nav-menu{
-    
-   
-}
+
 
 nav ul{
     display: flex;
@@ -95,7 +92,7 @@ header{
     font-weight: 700;
     color:  #131313;
 }
-.banner-discription{
+.banner-description{
     font-size: 1rem;
     color: #727272;
 text-align: center;
@@ -103,7 +100,7 @@ text-align: center;
 
 }
 .banner-img{
-    width: 100%;
+     width: 100%;
     margin-top: 20px;
 }
 
@@ -133,8 +130,8 @@ nav ul{
 }
 
 
-/*mediam divices*/
-@media screen(min-width:576px) (max-width:960px) {
+/*medium devices*/
+@media screen and (min-width:576px) and (max-width:960px) {
     
 }
 
